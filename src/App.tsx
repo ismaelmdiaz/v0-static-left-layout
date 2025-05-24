@@ -37,9 +37,13 @@ function App() {
   }
 
   return (
-    <div className="flex flex-col md:flex-row h-screen">
-      <Sidebar activeSection={activeSection} onNavigate={scrollToSection} />
-      <MainContent />
+    <div className="flex min-h-screen">
+      <div className="w-full md:w-1/3 md:sticky md:top-0 md:h-screen">
+        <Sidebar activeSection={activeSection} onNavigate={scrollToSection} />
+      </div>
+      <div className="w-full md:w-2/3">
+        <MainContent />
+      </div>
     </div>
   )
 }

@@ -4,7 +4,7 @@ import type { SidebarProps } from "../types"
 
 const Sidebar = ({ activeSection, onNavigate }: SidebarProps) => {
   return (
-    <div className="w-full md:w-1/3 bg-[#0e1a36]/90 text-white p-8 flex flex-col justify-between fixed md:h-screen overflow-auto backdrop-blur-sm">
+    <div className="w-full bg-[#0e1a36]/90 text-white p-8 flex flex-col justify-between h-full backdrop-blur-sm">
       <div className="space-y-6">
         <div className="space-y-1">
           <h1 className="text-5xl font-bold">Brittany Chiang</h1>
