@@ -21,6 +21,9 @@ body {
   padding: 0;
   height: 100%;
   overflow-x: hidden;
+}
+
+body {
   background-image: url("/background.png");
   background-attachment: fixed;
   background-size: cover;
