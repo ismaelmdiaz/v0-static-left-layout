@@ -20,3 +20,5 @@ const Sidebar = ({ activeSection, onNavigate }: SidebarProps) => {
     </div>
   )
 }
+
+export default Sidebar
