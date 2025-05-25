@@ -35,7 +35,7 @@ function App() {
   }
 
   return (
-    <div className="flex min-h-screen">
+    <div className="flex min-h-screen bg-[#0e1a36]/80 backdrop-blur-sm">
       <div className="w-full md:w-1/3 md:sticky md:top-0 md:h-screen">
         <Sidebar activeSection={activeSection} onNavigate={scrollToSection} />
       </div>

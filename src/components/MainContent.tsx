@@ -4,7 +4,7 @@ import ProjectsSection from "./sections/ProjectsSection"
 
 const MainContent = () => {
   return (
-    <div className="w-full bg-[#0e1a36]/80 text-white backdrop-blur-sm">
+    <div className="w-full text-white">
       <AboutSection />
       <ExperienceSection />
       <ProjectsSection />
